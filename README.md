@@ -1,2 +1,2 @@
 # spotify-virality-project
-Data analysis of Spotify top songs — exploring virality, longevity, and global music moods.
+Data analysis of Spotify top songs. Exploring virality, longevity, and global music moods.
