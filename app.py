@@ -6,7 +6,7 @@ st.title("Spotify Virality Project 🎶")
 FILE_PATH = "/Users/pranjalganvir/Documents/GitHub/spotify-virality-project/data/agg_country_features.csv"
 df = pd.read_csv(FILE_PATH)
 
-min_tracks = st.slider("Minimium number of tracks", 100, 40000, 9000)
+min_tracks = st.slider("Minimium number of tracks", 25000, 30000, 28000)
 
 filterd_vals = df[df["n_tracks"] >= min_tracks]
 
