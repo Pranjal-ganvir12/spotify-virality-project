@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.title("Spotify Virality Project 🎶")
-FILE_PATH = "/Users/pranjalganvir/Documents/GitHub/spotify-virality-project/data/agg_country_features.csv"
+FILE_PATH = "data/agg_country_features.csv"
 df = pd.read_csv(FILE_PATH)
 
 min_tracks = st.slider("Minimium number of tracks", 25000, 30000, 28000)
